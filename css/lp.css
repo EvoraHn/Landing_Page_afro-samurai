@@ -1,0 +1,140 @@
+
+.anuncio{
+    background-image: url('../imgs/anunciosm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%, 100%;
+    min-height: 50vh;
+    background-position: bottom center;
+    
+}
+.nav-link {
+    color: cadetblue;
+    
+    border-bottom: 0.25rem solid rgba(255, 255, 255, 0.0);
+    transition: border-bottom 0.5s;
+}
+
+.nav-link:hover {
+    color: rgb(5, 89, 92);
+    border-bottom: 0.25rem solid rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+    color: cadetblue;
+    align-self: center;
+}
+h4 {
+    color: cadetblue;
+    font-size: 3vw;
+}
+.card img{
+    width:100%;
+  }
+.Pie
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:100vh;
+    left: 0em;
+    height: 8em;
+    width: 100%;
+    background-color: #005D77;
+}
+
+.episodiotxt{
+    margin-left: 3%;
+    margin-top: 3%;
+   
+}
+.infotxt{
+    margin-left: 3%;
+    
+}
+.flotante{
+    position: fixed;;
+    bottom:5px;
+    align-self: center;
+    justify-items: center;
+}
+.boton{
+    background-color: rgb(8, 59, 61);
+    border-color: rgb(8, 59, 61); 
+    color: blanchedalmond;
+    font-size: 2vw;
+    
+}
+.correoform{
+    font-size: 1.5vw;
+    border-color: rgb(8, 59, 61);
+    width:22vw; 
+    text-align: center;
+}
+.botonform{
+    background-color: rgb(8, 59, 61);
+    border-color: rgb(8, 59, 61); 
+    color: blanchedalmond;
+    font-size: 1.5vw;
+    width:22vw;
+}
+.correo{
+    font-size: 2vw;
+    border-color: rgb(8, 59, 61); 
+}
+h4{
+    color: cadetblue;
+}
+nav{
+    background-color: rgb(8, 59, 61);
+}
+.botones_episodios
+{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 3%;
+    background-color: rgb(8, 59, 61);
+    border-color: rgb(8, 59, 61); 
+    color: blanchedalmond;
+    
+}
+.circulo_informacion{
+    text-align: left;
+}
+@media (min-width: 768px) {
+    .anuncio {
+        background-image: url("../imgs/anunciosm.png");
+        min-height: 80vh;
+        background-position: bottom center;
+
+    }
+
+
+    form{
+      font-size:2rem !important;
+    }
+    .title{
+      font-size:6rem;
+      text-shadow: 3px 3px 3px #fff;
+      background-color: rgba(255,255,255,0.3);
+      padding:0.7em;
+      width:100%;
+      
+    }
+  }
+
+@media (min-width: 992px) {
+    .anuncio {
+        background-image: url("../imgs/anuncio.png");
+        background-position:inherit;
+    }
+     .title{
+      
+      max-width:1024px;
+      margin:1em auto;
+      
+    }
+  }
+  
