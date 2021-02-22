@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!--https://webkul.github.io/micron/docs.html#interactions-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+        <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="./css/lp.css" />
+        <title>Portafolio</title>
+    </head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" href="#">Afro Samurai</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Desplegar Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-md-flex justify-content-md-end " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#episodio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mas">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Producciòn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="d-flex vh-100 text-center bg-p-cover " id="episodio">
+        <div class="container-xl d-flex  flex-column justify-content-between">
+            <div class="anuncio col-sm-12 col-md-12 col-lg-12 d-flex w-100 h-100 flex-column ">
+                <div class="circulo_informacion ">
+                    <h4 class="episodiotxt ">Episodio #2</h4>
+                    <h4 class="infotxt ">Afro vs Teddy</h4>
+                </div>
+                    <input class="correoform form-control-lg mt-3 font-size: 1.5vw;" type="email" name="txtEmail" id="txtEmail" placeholder="Tu Correo Electrónico" />
+                    <button class="botonform  btn btn-primary btn-lg mt-3" data-micron="shake" id="btn1">Descargar episodio estreno</button>
+                <br>
+                <form id="form1" action="" method="post" class="flotante col-sm-12 col-md-12 col-lg-12 d-flex  align-items-center justify-content-center flex-column ">
+                    <table>
+                        <tr>
+                            <th>
+                                <input class="correo form-control-lg mt-3 font-size: 1.5vw;" type="email" name="txtEmail" id="txtEmail" placeholder="Tu Correo Electrónico" />
+                            </th>
+                            <th>
+                                <button class="boton btn btn-primary btn-lg mt-3" data-micron="shake" id="btnForm2">Descargar episodio estreno</button>
+                            </th>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid  text-center p-5 ">
+        <h1>Galería</h1>
+    </section>
+    <main class="container mb-5 ">
+        <section class="row mt-5 " id="mas">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt=" libro" src="imgs/libro.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Samuel L.Jackson (Afro Samurai 1) </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem debitis asperiores aut alias laboriosam nostrum, quia, necessitatibus repudiandae magnam voluptas amet dicta iusto ipsum iste in explicabo adipisci quo..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Bibliografía" src="imgs/Bibliografía.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Bibliografía del Autor</div>
+                        
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ratione maiores impedit sapiente sequi architecto aliquid libero quas. Amet quidem sunt saepe incidunt facere nemo laudantium cupiditate facilis voluptates sapiente.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Episodio Anterior" src="imgs/Episodio anterior.gif" />
+                    <div class="card-body">
+                        <div class="card-title">Episodio Anterior</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea molestias facilis doloremque porro dolores dolorum iure accusamus? Id laborum mollitia soluta similique. Magnam impedit incidunt beatae praesentium molestias mollitia nostrum?</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat enim recusandae deleniti quisquam laudantium ea impedit! Optio, consequuntur provident nesciunt recusandae impedit inventore ad, sint, aperiam harum at itaque! Iste!</p>
+                        
+                       
+                    </div>
+                        <button class="botones_episodios btn btn-primary btn-lg mt-3 " id="btnf1">Ver Episodio anterior</button>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid  text-center p-5">
+            <h1>Producción</h1>
+        </section>
+        <section class="container mt-5" id="contacto">
+            <section class="row">
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 1" src="imgs/Jackson.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <p>Samuel Leroy Jackson, conocido como Samuel L. Jackson, es un actor y productor de cine, televisión y teatro estadounidense. Ha sido candidato al premio Óscar, a los Globos de Oro y al Premio del Sindicato de Actores, así como ganador de un BAFTA al mejor actor de reparto.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 2" src="imgs/Takashi_Okazaki_by_Gage_Skidmore.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <p>Takashi Okazaki es un mangaka japonés, diseñador visual y diseñador gráfico más conocido por escribir e ilustrar el manga de Afro Samurai. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 3" src="imgs/Eliab.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta libero architecto vitae id voluptates, puaerat quos nulla, error ipsam repellendus molestiae, nisi nam suscipit quibusdam hic esse dignissimos sit? Iure?</p>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        
+    </main>
+    <footer class="container-fluid  text-center p-5">
+        <p> Eliab Evora &copy; 2021 Desarrollo de Portales Web </p>
+        <br><br>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(e) {
+                  
+                    var btns = document.getElementsByTagName("button");
+                    for (var i = 0; i < btns.length; i++) {
+                        btns[i].addEventListener("mouseenter", function(e) {
+                            micron.getEle("#" + e.target.id).interaction("fade").duration(".45").timing("ease-out");
+                        });
+                        btns[i].addEventListener("mouseleave", function(e) {
+                            var classes = e.target.classList;
+                            var toRemove = [];
+                            for (var j = 0; j < classes.length; j++) {
+                                var classstr = classes[j];
+                                if ((/^mjs-.*$/).test(classstr)) {
+                                    toRemove.push(classstr);
+                                }
+                            }
+                            toRemove.map(function(cst) {
+                                e.target.classList.remove(cst);
+                            });
+                        });
+                    }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+</body>
+
+</html>
